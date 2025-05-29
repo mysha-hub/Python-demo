@@ -1,0 +1,6 @@
+list = []
+user_name = input("enter your user name : ")
+if user_name in list:
+    print("Thanks for logging in.")
+else:
+    print("We need to find some user. ")
