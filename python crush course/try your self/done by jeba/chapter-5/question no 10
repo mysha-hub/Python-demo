@@ -1,0 +1,7 @@
+current_user = ['jeba', 'pial', 'jui', 'tanisha']
+print("User name should be unique.")
+new_user = input("Enter a new user name : ")
+if new_user in current_user:
+    print("This name is taken.Choose a new one.")
+else:
+    print("Thanks for selecting a uniqre user name.")
