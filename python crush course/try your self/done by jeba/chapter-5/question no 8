@@ -1,0 +1,8 @@
+list = ['jeba', 'pial', 'jui', 'tanisha', 'maliha', 'arofi', 'mahi']
+user_name = input("Enter your user name: ")
+if user_name in list[0]:
+    print(f'dear,admin {user_name} would you like to check our status report.')
+elif user_name in list[1:6]:
+    print(f'Dear,{user_name},thanks for logging in.')
+else:
+    print("Ooops,something went wrong.")
