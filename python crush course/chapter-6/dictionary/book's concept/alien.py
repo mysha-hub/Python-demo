@@ -33,7 +33,7 @@ if alien_0['speed'] == 'slow':
 elif alien_0['speed'] == 'modium':
     x_increment = 2
     #This statement defines that if the alien's speed is medium then the position will change 2 unit everytime.
-elif alien_0['speed'] == 'fast':
+else:
     x_increment = 3
 #This statement defines that if the alien's speed is medium then the position will change 3 unit everytime.
 #This line below indicates the position counting method of the alien.
