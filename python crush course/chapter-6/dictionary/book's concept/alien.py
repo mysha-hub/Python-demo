@@ -40,7 +40,7 @@ else:
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 print(f"The new position of alien is{alien_0['x_position']}.")
 
-
+#Removing a value
 alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
 print(alien_0)
 
