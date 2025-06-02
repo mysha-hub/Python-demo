@@ -1,0 +1,3 @@
+fav_number = {'jeba': 24, 'soikot': 35, 'monamee': 45, 'mojid': 55, 'mumu': 12}
+print(f"Jeba's favorite number is {fav_number['jeba']}")
+print(f"Soikot's favorite number is {fav_number['soikot']}")
