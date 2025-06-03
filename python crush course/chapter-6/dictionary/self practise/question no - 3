@@ -1,1 +1,9 @@
 
+dictonary = {'variable':"value that can change", 'loop':'that never ends', 'list': 'store some information', 'dictionary': 'addes pieaces of information'}
+print(f"A variable : {dictonary['variable']}")
+print(f"A loop : {dictonary['loop']}")
+print(f"A list : {dictonary['list']}")
+print(f"A dictinary : {dictonary['dictionary']}")
+point_value = dictonary.get('string', 'No value assigned.')
+print(point_value)
+print(f"A list is {dictonary['list']}")
