@@ -10,3 +10,7 @@ print(point_value)
 favorites = {'food': 'pizza', 'ponts': 5}
 mama = favorites.get('cloths', 'No point value assigned.')
 print(mama)
+
+fav_0 = {'Jeba': 'python', 'Soikot': 'java script', 'pial':'R', 'kaium': 'java'}
+for name, language in fav_0.items():
+    print(f"{name.title()}'s favorite programming language is {language.title()}")
