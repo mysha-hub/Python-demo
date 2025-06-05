@@ -1,6 +1,6 @@
 favorite_language = {'Jeba': 'python', 'Soikot': 'Java script', 'monamee': 'CSS'}
 language = favorite_language['Jeba'].title()
-print(f"Jeba's favorite language is {language}"
+print(f"Jeba's favorite language is {language}")
 
 alien_0 = {'color': 'green', 'speed': 'slow'}
 
