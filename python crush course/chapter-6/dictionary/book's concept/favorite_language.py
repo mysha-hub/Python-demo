@@ -14,3 +14,5 @@ print(mama)
 fav_0 = {'Jeba': 'python', 'Soikot': 'java script', 'pial':'R', 'kaium': 'java'}
 for name, language in fav_0.items():
     print(f"{name.title()}'s favorite programming language is {language.title()}")
+for name in fav_0.keys():#this loop tells python to pull the keys from the dictonary.
+    print(name.title())
