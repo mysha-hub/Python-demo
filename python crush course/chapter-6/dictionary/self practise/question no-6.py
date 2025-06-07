@@ -1,9 +1,8 @@
-fav_language = {'jeba': 'python', 'soikot': 'java script', 'david': 'c++', 'safia': 'R'}
+
+fav_language = {'jeba': 'python', 'jen': 'python','sarah': 'c','edward': 'rust',}
+friends = ['soikot', 'david', 'sarah']
 for name in fav_language.keys():
-    print(f"Hi, {name.title()} ")
-
-
-list = ['jeba', 'mala', 'zen', 'soikot']
-if name in list:
-    language = fav_language[name].title()
-    print(f"{name.title} loves {language}")
+    print(f"Dear {name.title()}, thanks for taking our poll")
+    if name in friends:
+        language = fav_language.keys()
+        print(f"{name.title()} Please take our poll")
