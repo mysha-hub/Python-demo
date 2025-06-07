@@ -38,3 +38,18 @@ for alien in aliens[:3]:
 for alien in aliens[0:5]:
     print(alien)
 print("...")
+
+
+
+print("\nHere is the starting of a new program.")
+#make a empty alien list.
+alien = []
+#make 30 green aliens.
+for alien_number in range(30):
+    new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+    alien.append(new_alien)
+#show the first 5 aliens.
+for alien in alien[:5]:
+    print(alien)
+print("........")
+print(f"Total number of aliens: {len(alien)}")
