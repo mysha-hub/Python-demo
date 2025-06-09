@@ -1,2 +1,2 @@
-# Python-demo
-My python repo.
+
+Hi, I’m Mysha, an ambitious learner focused on becoming a Cybersecurity Manager. I’m building a strong foundation in computer science through self-study, concentrating on Python programming, computer networking, Linux and system security, as well as ethical hacking and threat detection. I believe in deep learning, consistent practice, and continuous growth to develop the skills needed to excel in cybersecurity.
