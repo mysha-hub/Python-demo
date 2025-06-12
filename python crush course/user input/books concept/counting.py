@@ -18,3 +18,10 @@ while counting_number < 100:
         continue
     print(counting_number)
 # This code will print all odd numbers from 1 to 100
+
+
+x = 1
+while x <= 10:
+    print(x)
+    x += 1
+# This code will print numbers from 1 to 10, one number per line.
