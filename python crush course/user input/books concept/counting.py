@@ -25,3 +25,10 @@ while x <= 10:
     print(x)
     x += 1
 # This code will print numbers from 1 to 10, one number per line.
+
+
+# a forever loop
+x = 1
+while x <= 10:
+    print(x)
+    # x += 1  # Uncommenting this line will stop the loop
